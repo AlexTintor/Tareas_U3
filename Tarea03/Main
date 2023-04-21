@@ -1,0 +1,39 @@
+
+package tarea03;
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+        
+        Animal animal1 = new Animal("Leon");
+        Object animal2 = new Animal("Perro");
+        Perro perro1 = new Perro("Scooby");
+        System.out.println(animal1.toString());
+        System.out.println(animal2);
+        System.out.println(perro1);
+        perro1.printMensaje();
+        perro1.printSonido();
+        System.out.println("");
+        
+        Animal animal01 = new Animal("Tigre");
+        Object animal02 = new Animal("Gato");
+        Gato gato1 = new Gato("Don Gato");
+        System.out.println(animal01.toString());
+        System.out.println(animal02);
+        System.out.println(gato1);
+        gato1.printMensaje();
+        gato1.printSonido();
+        System.out.println("");
+        
+        Cerdo cerdo1 = new Cerdo("Luis");
+        System.out.println(cerdo1);
+        cerdo1.printSonido();
+        System.out.println("");
+        
+        Serpiente serpiente1 = new Serpiente("Lola");
+        System.out.println(serpiente1);
+        serpiente1.printSonido();
+    }
+    
+    
+    
+}
