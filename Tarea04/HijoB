@@ -1,0 +1,16 @@
+package tarea04;
+
+//clase derivada SIN CONSTRUCTOR
+public class HijoB extends Padre{
+    int b=2;
+    public void setB(int x){
+        b=x;
+    }
+    public int getB(){
+        return b;
+    }
+    public String toString(){
+        return super.toString()+", valor "+b;
+    }
+}
+    
