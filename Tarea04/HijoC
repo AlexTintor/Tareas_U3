@@ -1,0 +1,18 @@
+package tarea04;
+
+// clase derivada CON CONSTRUCTOR
+public class HijoC extends Padre{
+    int c=3;
+    public HijoC(int valor){
+        c=valor;
+    }
+    public void setC(int x){
+        c=x;
+    }
+    public int getC(){
+        return c;
+    }
+    public String toString(){
+        return super.toString()+", valor "+c;
+    }
+}
