@@ -1,0 +1,22 @@
+/*
+¿Qué pasa cuando la clase padre no tiene constructor explícito y la clase hijo 
+tiene un constructor con parámetros?
+Manda a llamar al constructor que java nos regala (porque en este caso no 
+tenemos constructores en la clase padre, por lo que java SI nos regala uno
+vacio)
+*/
+package tarea04;
+
+// clase base SIN CONSTRUCTOR
+public class Padre{
+    int a=7;
+    public void setA(int x){
+        a = x;
+    }
+    public int getA(){
+        return a;
+    }
+    public String toString(){
+        return "valor "+a;
+    }
+}
