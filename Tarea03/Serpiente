@@ -1,0 +1,19 @@
+
+package tarea03;
+
+public class Serpiente extends Animal {
+    private String nombre;
+    public Serpiente(String nombre) {
+        super("Serpiente");
+        this.nombre = nombre;
+    }
+    public String getNombre(){
+        return nombre;
+    }
+    public void printSonido(){
+        System.out.println("psspss");
+    }
+    public String toString(){
+        return super.toString()+", me llamo "+nombre;
+    }
+}
