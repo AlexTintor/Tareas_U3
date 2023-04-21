@@ -1,0 +1,23 @@
+
+package tarea02;
+
+public class D3Punto extends Point {
+    private int z=0;
+    public D3Punto(int z){
+        this.z=z;
+    }
+    public D3Punto(Point p, int z){
+        x=p.x;
+        y=p.y;
+        this.z=z;
+    }
+    public int getZ(){
+        return z;
+    }
+    public void setZ(int z){
+        this.z=z;
+    }
+    public String toString(){
+        return super.toString()+","+z;
+    }
+}
