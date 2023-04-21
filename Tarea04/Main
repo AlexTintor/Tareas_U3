@@ -1,0 +1,12 @@
+package tarea04;
+
+public class Main {
+    public static void main(String[] args) {
+        Padre objeto1 = new Padre();
+        System.out.println(objeto1);
+        HijoB objeto2 = new HijoB();
+        System.out.println(objeto2);
+        HijoC objeto3 = new HijoC(6);
+        System.out.println(objeto3);
+    }
+}
