@@ -1,0 +1,18 @@
+/*
+ Los objetos de la clase ColorPoint reciben como
+herencia todos los miembros de la clase Point
+ */
+package tarea02;
+
+public class ColorPoint extends Point {
+    private String color = "rojo";
+    public void setColor (String c){
+        color = c;
+    }
+    public String getColor(){
+        return color;
+    }
+    public String toString(){
+        return super.toString()+", "+color;
+    }
+}
