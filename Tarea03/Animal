@@ -1,4 +1,9 @@
-
+/*
+En este caso se usa la herencia cuando sobre escribimos el metodo toString ya 
+que mandamos a llamar al metodo toString desde la clase hija (Perro, Gato, etc),
+a la clase padre (Animal) mediante el super, para así completar nuestro nuuevo
+metodo toString
+*/
 package tarea03;
 
 public class Animal {
