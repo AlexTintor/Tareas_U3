@@ -1,0 +1,19 @@
+
+package tarea03;
+
+public class Cerdo extends Animal {
+    private String nombre;
+    public Cerdo(String nombre) {
+        super("Cerdo");
+        this.nombre = nombre;
+    }
+    public String getNombre(){
+        return nombre;
+    }
+    public void printSonido(){
+        System.out.println("oink");
+    }
+    public String toString(){
+        return super.toString()+", me llamo "+nombre;
+    }
+}
