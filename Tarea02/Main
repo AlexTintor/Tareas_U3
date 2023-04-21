@@ -1,0 +1,25 @@
+package tarea02;
+
+public class Main {
+    public static void main(String[] args) {
+        Point p1 = new Point();
+        Point p2 = new Point(3,5);
+        ColorPoint cp1 = new ColorPoint();
+        System.out.println("p1 = "+p1);
+        System.out.println("p2 = "+p2);
+        System.out.println("cp1 = "+cp1);
+        cp1.setX(4);
+        System.out.println("cambio x en cp1 = "+cp1);
+        p1.setY(9);
+        System.out.println("cambio y en p1 = "+p1);
+        System.out.println("genera un nuevo punto con medio "+p2.medio(p1));
+        cp1.setColor("verde");
+        System.out.println("cambio color cp1 = "+cp1);
+        System.out.println("");
+        
+        D3Punto d3p1 = new D3Punto(2);
+        System.out.println("Creamos un punto D3 con z=2: "+d3p1);
+        D3Punto d3p2 = new D3Punto(p2,2);
+        System.out.println("Creamos un punto D3 igual a p2 y z=2: "+d3p2);
+    }
+}
