@@ -1,0 +1,29 @@
+/*
+1. ¿Qué puedes hacer en una subclase?
+- En una subclase, puedes heredar los miembros y métodos de la superclase, así 
+como agregar nuevos miembros y métodos específicos de la subclase. Además, 
+puedes sobrescribir los métodos de la superclase para proporcionar una 
+implementación específica de la subclase.
+
+2. ¿Cómo puedes acceder desde una subclase a los miembros privados de la 
+superclase?
+-Desde una subclase, no puedes acceder directamente a los miembros privados de 
+la superclase. Sin embargo, puedes acceder a ellos a través de métodos públicos 
+o protegidos de la superclase que proporcionen acceso a los miembros privados.
+
+3. Explica un ejemplo de cast.
+El casting es el proceso de convertir un objeto de una clase a otra clase 
+relacionada. Por ejemplo, si tienes una clase "Animal" y una subclase "Perro", 
+puedes crear un objeto "Perro" y luego hacer un cast para convertirlo en un 
+objeto "Animal" si es necesario. Esto se puede hacer utilizando la sintaxis de 
+casting de Java, como en el siguiente ejemplo:
+
+Perro miPerro = new Perro();
+Animal miAnimal = (Animal) miPerro;
+
+ */
+package tarea01;
+public class Tarea01 {
+    public static void main(String[] args) {
+    }
+}
